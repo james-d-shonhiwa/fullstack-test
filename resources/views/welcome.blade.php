@@ -8,7 +8,7 @@
         <source srcset="images/banner-m.jpg" media="(max-width: 768px)">
         <img srcset="images/banner.jpg" alt="banner">
     </picture> 
-    <h2 class="banner-text">Super Soft, Stylish Bed Linen Made With Love</h2>
+    <div class="banner-text"><h2>Super Soft, Stylish Bed Linen Made With Love</h2></div>
 </div>
 
 <main class="wrapper">
@@ -21,20 +21,20 @@
         <ul>
             <li>
                 <img src="images/premium1.jpg" alt="selling point">
-                <button class="btn">Button</button>
+                <button class="btn">Shop Bad Linens</button>
             </li>
             <li>
                 <img src="images/premium2.jpg" alt="selling point">
-                <button class="btn">Button</button>
+                <button class="btn">Shop Bath Towels</button>
             </li>
        
             <li>
                 <img src="images/premium3.jpg" alt="selling point">
-                <button class="btn">Button</button>
+                <button class="btn">Shop Bath Robes</button>
             </li>
             <li>
                 <img src="images/premium4.jpg" alt="selling point">
-                <button class="btn">Button</button>
+                <button class="btn">Shop Home Fragrance</button>
             </li>
         </ul>
         

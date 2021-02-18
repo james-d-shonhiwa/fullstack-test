@@ -97,19 +97,21 @@ body {
     overflow: hidden;
 }
 
-#main-banner h2 {
+.banner-text {
     position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    color: #000;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    width: 250px;
-  }
+    bottom: 70%;
+    color: #eee;
+    width: 100%;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-size: 35px;
+}
 
 #selling-points {
     margin-top: 60px;

@@ -1,0 +1,357 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4 {
+    color: #4e4e4e;
+}
+
+body {
+    background: #fff;
+}
+
+.wrapper {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #a9a9a9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Centered section inside the top navigation */
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  
+  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+  
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+
+.logo {
+    background: url(/images/logo.png) no-repeat;
+    background-size: contain;
+    width: 262px;
+    height: 78px;
+    text-align: center;
+}
+
+.main-banner img {
+    width: 100%;
+}
+
+.main-banner {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+#main-banner h2 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: #000;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+  }
+
+#selling-points {
+    margin-top: 60px;
+}
+
+#selling-points li {
+    position: relative;
+    padding-left: 1%;
+    float: left;
+    width: 50%;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    line-height: 1.6em;
+}
+
+#selling-points li img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Style the button and place it in the middle of the container/image */
+#selling-points li .btn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+  }
+  
+  #selling-points li .btn:hover {
+    background-color: black;
+  }
+
+#selling-points::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#bestseller {
+    margin-top: 60px;
+}
+
+#bestseller h2 {
+    text-align: center;
+}
+
+#bestseller li {
+    float: left;
+    width: 31%;
+    padding: 1%;
+    text-align: center;
+    list-style-type: none;
+    line-height: 1.6em;
+}
+
+#bestseller li img {
+    width: 100%;
+}
+
+#bestseller::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#priority {
+    margin-top: 60px;
+    background-color: #f1f0ec;
+    padding-top: 60px;
+}
+
+#priority ul {
+    margin-left: 17%;
+}
+
+#priority li {
+    float: left;
+    width: 10%;
+    padding: 5%;
+    text-align: center;
+    list-style-type: none;
+    line-height: 1.6em;
+}
+
+#priority li img {
+    width: 100%;
+}
+
+#priority::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#priority h2 {
+    text-align: center;
+}
+
+#gallery {
+    margin-top: 60px;
+}
+
+#gallery li {
+    float: left;
+    width: 25%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+    line-height: 1.6em;
+}
+
+#gallery li img {
+    width: 100%;
+}
+
+#gallery::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#gallery .follow {
+    padding: 40px 0 20px;
+    text-align: center;
+}
+
+#gallery .follow span {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#latest-work {
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 2px solid #4e4e4e;
+}
+
+#latest-work h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#latest-work li {
+    width: 32%;
+    float: left;
+    list-style-type: none;
+}
+
+#latest-work img {
+    width: 100%;
+}
+
+#latest-work li:nth-child(2) {
+    margin: 0 2%;
+}
+
+#latest-work::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#latest-work h3 {
+    margin-bottom: 0;
+}
+
+#latest-work p {
+    line-height: 1.6em;
+}
+
+p.tags {
+    color: #bbb;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#text-premium {
+    width: 60%;
+    padding: 40px 20%;
+    background: url(images/...) no-repeat center 20px;
+    color: #4e4e4e;
+    font-size: 20px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+#quote {
+    margin-top: 60px;
+    width: 60%;
+    padding: 40px 20%;
+    color: #4e4e4e;
+    font-size: 20px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+footer h4 {
+    margin: 0;
+    color: #555;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+footer ul {
+    float: left;
+    width: 25%;
+    list-style-type: none;
+}
+
+footer ul li {
+    line-height: 1.6em;
+}
+
+footer::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#copyright {
+padding: 20px 0;
+   float: left;
+}
+
+#links {
+    padding: 20px 0;
+    float: right;
+}
+
+  
